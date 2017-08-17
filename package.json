@@ -1,19 +1,30 @@
 {
   "name": "jira-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "./jira.js",
+  "version": "0.0.1",
+  "description": "A wrapper for the Jira API",
+  "main": "lib/jira.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andypattenden/node-jira-api.git"
   },
-  "author": "Andy Pattenden",
+  "author": "Andy Pattenden <andy@andypattenden.co.uk>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/andypattenden/node-jira-api/issues"
   },
-  "homepage": "https://github.com/andypattenden/node-jira-api#readme"
+  "homepage": "https://github.com/andypattenden/node-jira-api#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "jira"
+  ],
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.8"
+  }
 }
