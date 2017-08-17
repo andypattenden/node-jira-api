@@ -26,5 +26,9 @@
     "chai": "^4.1.0",
     "mocha": "^3.4.2",
     "sinon": "^2.3.8"
+  },
+  "dependencies": {
+    "moment": "^2.18.1",
+    "moment-range": "^3.0.3"
   }
 }
