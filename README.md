@@ -6,7 +6,7 @@ A wrapper for the Jira API
 
 Install with the node package manager [npm](http://npmjs.org):
 
-	$ npm install jira
+	$ npm install jira-node-api
 
 
 ## Usage
