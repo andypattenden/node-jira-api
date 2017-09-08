@@ -32,6 +32,10 @@
   },
   "dependencies": {
     "moment": "^2.18.1",
-    "moment-range": "^3.0.3"
+    "moment-range": "^3.0.3",
+    "eslint": "^4.6.1",
+    "eslint-config-prettier": "^2.4.0",
+    "eslint-plugin-prettier": "^2.2.0",
+    "prettier": "^1.6.1"
   }
 }
